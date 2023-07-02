@@ -1,0 +1,63 @@
+.movie-title {
+	color: red;
+	font-weight: bold;
+	font-size: 36px;
+}
+
+.seat {
+	display: inline-block;
+	height: 34px;
+	width: 40px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	margin: 3px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	line-height: 30px;
+	font-size: 16px;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+.seat1 {
+	background-color: #d90f34;
+}
+
+.seat2 {
+	background-color: #d90f34;
+}
+
+.seat3 {
+	background-color: #918f8f;
+}
+
+.seat4 {
+	background-color: rgb(18, 161, 18);
+}
+
+.seat-row {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 10px;
+}
+
+.booked {
+	background-color: rgb(18, 161, 18);
+}
+
+/*.selected{
+  background-color: green;
+}*/
+.book {
+	background-color: #918f8f;
+	/* กำหนดสีเทาให้กับที่นั่งที่ถูกจองแล้ว */
+	pointer-events: none;
+	/* กำหนดให้ไม่สามารถคลิกได้ */
+}
+
+.select_seat {
+	float: left;
+	margin-right: 30px;
+	margin-left: 30px;
+}
